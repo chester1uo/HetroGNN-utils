@@ -1,0 +1,9 @@
+{
+    "input_data": "./joint_data.csv",
+    "edgelist_expression": "relation*",
+    "output_dir": "./output",
+    "key_col": "TransactionID",
+    "node_cols": ["isFraud", "TransactionDT", "card1", "card2", "card3", "card4", "card5", "card6", "ProductCD", "addr1", "addr2", "P_emaildomain", "R_emaildomain"],
+    "feature_cols": ["TransactionID", "TransactionAmt", "dist1", "dist2", "C1", "C2", "C3"],
+    "num_workers": 4
+}
